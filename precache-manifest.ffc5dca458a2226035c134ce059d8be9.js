@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b201095695e049fd4faec2f0559317d",
+    "revision": "7103efc80e689c3bb9aacc00468ca8b7",
     "url": "/index.html"
   },
   {
-    "revision": "c1d22dd7a7a9ffa0c10c",
+    "revision": "418f1ba61cc1b472c4fd",
     "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "2c1159b7e522f4ffe7cc",
+    "revision": "07e4342c13e4e224a27d",
     "url": "/static/css/4.a922a401.chunk.css"
   },
   {
-    "revision": "789efe92b83e1ed1e061",
-    "url": "/static/css/main.ebfaf8ab.chunk.css"
+    "revision": "d4c36692dddf6bf4d588",
+    "url": "/static/css/main.ceaefa1a.chunk.css"
   },
   {
-    "revision": "e107375ea25a9faefaa2",
-    "url": "/static/js/2.819311e8.chunk.js"
+    "revision": "3d5a5a2caf4b53318fd6",
+    "url": "/static/js/2.88bcc4d7.chunk.js"
   },
   {
-    "revision": "c1d22dd7a7a9ffa0c10c",
-    "url": "/static/js/3.49b5ad26.chunk.js"
+    "revision": "418f1ba61cc1b472c4fd",
+    "url": "/static/js/3.b398116c.chunk.js"
   },
   {
-    "revision": "2c1159b7e522f4ffe7cc",
-    "url": "/static/js/4.404e7b05.chunk.js"
+    "revision": "07e4342c13e4e224a27d",
+    "url": "/static/js/4.e5be7217.chunk.js"
   },
   {
-    "revision": "789efe92b83e1ed1e061",
-    "url": "/static/js/main.50e2f967.chunk.js"
+    "revision": "d4c36692dddf6bf4d588",
+    "url": "/static/js/main.b11a35e4.chunk.js"
   },
   {
-    "revision": "cddccc59e8e0f3b84b54",
-    "url": "/static/js/runtime-main.49c389e1.js"
+    "revision": "83272d9ba3a4fd606880",
+    "url": "/static/js/runtime-main.de913c3e.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -162,6 +162,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b48e86c9a956d3a3a32ca4a5ae05ddc7",
     "url": "/static/media/talksCardBackAlt.b48e86c9.svg"
+  },
+  {
+    "revision": "c01f3136267fbc3b20f74e3557333832",
+    "url": "/static/media/tbChallenge.c01f3136.jpeg"
   },
   {
     "revision": "2d2d820eec5774a720c70e41c1fe1c03",
