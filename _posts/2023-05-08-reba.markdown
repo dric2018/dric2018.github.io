@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Reba: Rethinking Malaria Prevention in Rwanda Through Satellite Earth Observation"
+date:   2023-05-08 11:35:38 +00:00
+image: /images/reba.png
+categories: research
+authors: "<strong>Cédric Manouan</strong>, Moise busogi"
+subtitle: "ML4EO"
+venue: CMU-Africa Week 2023, CMU (Pittsburgh, PA)
+poster: https://drive.google.com/file/d/12cCbEmuHsC-tbda2aZ4FO3l_jLwaxeUW/view
+video: https://www.youtube.com/watch?v=HybRwdt9z-c&ab_channel=CollegeofEngineering%2CCarnegieMellonUniversity
+---
+A study on the use of ML4EO techniques in the development of end-to-end systems that can visually present the vulnerability
+level of a selected regions in Rwanda (at the District or Province level).

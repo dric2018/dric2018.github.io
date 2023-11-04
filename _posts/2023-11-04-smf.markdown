@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Sequence-to-Sequence Robotics Transformer 1 (RT-1)"
+date:   2023-11-04 11:35:38 +00:00
+image: /images/SMF_Schneider2020.png
+categories: research
+authors: "Cédric Manouan"
+code: https://github.com/dric2018/smf_be
+subtitle: "Behavioral Episode Model"
+venue: AI & Robotics Lab (CMU-Africa)
+---
+A PyTorch re-implementation of RT-1 for the generation of actions represented as sequences of text tokens composed of the parameters to a CRAM generalized action plan.
