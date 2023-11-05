@@ -2,7 +2,7 @@
 layout: post
 title:  "Identify Homography Between Images"
 date:   2021-11-10 11:35:38 +00:00
-image: /images/homography.png
+image: /images/homography.jpg
 categories: U
 course: 18799 - Applied Computer Vision
 authors: "Cédric Manouan"

@@ -2,7 +2,7 @@
 layout: post
 title:  "Runmila AI Institute & minoHealth AI Labs Tuberculosis Classification via X-Rays Challenge"
 date:   2020-11-15 11:35:38 +00:00
-image: /images/tbZindi.png
+image: /images/tbZindi.jpg
 categories: other
 authors: "<strong>Cédric Manouan</strong>, Emmanuel Koupoh, Muhamed Tuo"
 code: https://github.com/dric2018/ZindiTuberculosisClassification

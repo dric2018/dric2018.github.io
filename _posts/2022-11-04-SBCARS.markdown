@@ -2,7 +2,7 @@
 layout: post
 title:  "RecSys challenge 2019: Session-based, Context-aware Recommender System in an Online Travel Domain"
 date:   2022-11-04 11:35:38 +00:00
-image: /images/SBCA-RS.png
+image: /images/SBCA-RS.jpg
 categories: U
 authors: "<strong>Cédric Manouan</strong>, Benny Uhoranishema, Happiness Karigirwa"
 code: https://github.com/dric2018/RecSys_groupProjectF22

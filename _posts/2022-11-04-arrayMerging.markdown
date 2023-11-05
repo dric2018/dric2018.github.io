@@ -2,7 +2,7 @@
 layout: post
 title:  "A Solution to the Array Merging Problem"
 date:   2022-11-04 11:35:38 +00:00
-image: /images/arrayMerging.png
+image: /images/arrayMerging.jpg
 categories: U
 course: 04-630 Data Structures and Algorithms for Engineers (DSA4E)
 authors: "Cédric Manouan"

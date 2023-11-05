@@ -2,7 +2,7 @@
 layout: post
 title:  "Reba: Rethinking Malaria Prevention in Rwanda Through Satellite Earth Observation"
 date:   2023-05-08 11:35:38 +00:00
-image: /images/reba.png
+image: /images/reba.jpg
 categories: research
 authors: "<strong>Cédric Manouan</strong>, Moise Busogi"
 subtitle: "ML4EO"

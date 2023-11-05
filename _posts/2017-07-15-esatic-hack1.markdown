@@ -2,7 +2,7 @@
 layout: post
 title:  "Cryptography (24 h)"
 date:   2017-07-15 11:35:38 +00:00
-image: /images/ceaserCipher.png
+image: /images/ceaserCipher.jpg
 categories: U
 authors: "Emmanuel Koupoh, Muhamed Tuo, <strong>Cédric Manouan</strong>"
 venue: Ecole Supérieure Africaine des TIC (ESATIC)

@@ -2,7 +2,7 @@
 layout: post
 title:  "Spot the Mask Challenge (72 h)"
 date:   2020-05-20 11:35:38 +00:00
-image: /images/cia.png
+image: /images/cia.jpg
 categories: other
 authors: "Emmanuel Koupoh, Muhamed Tuo, <strong>Cédric Manouan</strong>"
 code: https://github.com/NazarioR9/Spot-the-Mask-challenge-3rd-Place
