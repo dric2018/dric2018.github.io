@@ -99,6 +99,25 @@ table {
 .zoom-image:hover {
   transform: scale(1.8); /* Increase the scale (zoom) on hover */
 }
+  /* CSS for the background overlay */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Adjust the opacity for the desired blur effect */
+    backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
+    z-index: 1;
+    pointer-events: none; /* Allow mouse interactions on elements below the overlay */
+    opacity: 0;
+    transition: opacity 0.3s; /* Add a smooth transition for the overlay */
+}
+
+.zoom-container:hover + .overlay {
+    opacity: 1; /* Show the overlay on hover */
+    pointer-events: auto; /* Allow mouse interactions on the overlay itself */
+}
 
 .one {
   width: 160px;
