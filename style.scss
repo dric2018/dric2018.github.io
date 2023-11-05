@@ -30,21 +30,22 @@ tr,
 p,
 a {
   font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-display: auto;
   font-weight:400;
+  text-align: justify;
 }
 
 strong {
   font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-display: auto;
   font-weight: 600;
 }
 
 h2 {
   font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   font-display: auto;
   font-weight: 600;
   padding: 0px;
@@ -54,7 +55,7 @@ h2 {
 
 h3 {
   font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   font-display: auto;
   padding: 0px;
@@ -74,6 +75,29 @@ h1 {
   margin-left: 0px;
   margin-right: 0px;
 
+}
+
+table {
+  width: 100%;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: separate;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.zoom-container {
+  position: relative;
+}
+
+.zoom-image {
+  width: 500px;
+  height: 500px;
+  transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+.zoom-image:hover {
+  transform: scale(1.8); /* Increase the scale (zoom) on hover */
 }
 
 .one {

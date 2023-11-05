@@ -8,6 +8,6 @@ for file in images/*.{jpg,png}; do
     # Check if the thumbnail file doesn't exist
     if [ ! -f "tn/images/$filename" ]; then
         # Create a thumbnail for the current image
-        convert "$file" -thumbnail 160x160 "tn/images/$filename"
+        convert "$file" -thumbnail 160x300 "tn/images/$filename"
     fi
 done

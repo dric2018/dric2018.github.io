@@ -30,19 +30,10 @@ avatar: images/cmanouan_1.jpg
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
   email: manouan@gmail.com
-  facebook:
-  flickr:
   github: dric2018
   instagram: unicorn22505
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
   twitter: cmDrStrange
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
 permalink: /
 
 # Build settings
