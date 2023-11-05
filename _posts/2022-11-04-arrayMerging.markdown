@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A solution to the array merging problem"
+title:  "A Solution to the Array Merging Problem"
 date:   2022-11-04 11:35:38 +00:00
 image: /images/arrayMerging.png
 categories: U

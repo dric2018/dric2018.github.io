@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Image recognition"
+title:  "Image recognition (48 h)"
 date:   2018-07-14 11:35:38 +00:00
 image: /images/hack2.jpg
 categories: U

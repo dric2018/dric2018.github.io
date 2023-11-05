@@ -4,7 +4,7 @@ title:  "Reba: Rethinking Malaria Prevention in Rwanda Through Satellite Earth O
 date:   2023-05-08 11:35:38 +00:00
 image: /images/reba.png
 categories: research
-authors: "<strong>Cédric Manouan</strong>, Moise busogi"
+authors: "<strong>Cédric Manouan</strong>, Moise Busogi"
 subtitle: "ML4EO"
 venue: CMU-Africa Week 2023, CMU (Pittsburgh, PA)
 poster: https://drive.google.com/file/d/12cCbEmuHsC-tbda2aZ4FO3l_jLwaxeUW/view

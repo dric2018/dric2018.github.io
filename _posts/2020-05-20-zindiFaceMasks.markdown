@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Spot the Mask Challenge"
+title:  "Spot the Mask Challenge (72 h)"
 date:   2020-05-20 11:35:38 +00:00
 image: /images/cia.png
 categories: other

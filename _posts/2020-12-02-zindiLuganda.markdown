@@ -6,7 +6,7 @@ image: /images/wakanda.png
 categories: other
 authors: "Muhamed Tuo, <strong>Cédric Manouan</strong>, Emmanuel Koupoh"
 code: https://github.com/NazarioR9/GIZ-NLP-Agricultural-Keyword-Spotter
-subtitle: "Speech Proessing - Classify audio utterances in Luganda and English from Uganda"
+subtitle: "Speech Processing - Classify audio utterances in Luganda and English from Uganda"
 venue: Zindi
 website: https://zindi.africa/competitions/giz-nlp-agricultural-keyword-spotter/leaderboard
 ---

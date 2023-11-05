@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Content-Based Recommender System for scientific/research papers"
+title:  "Content-Based Recommender System for Scientific/Research Papers"
 date:   2022-10-18 12:46:19 +00:00
 image: /images/PersonalizedCBRS.jpg
 categories: U
@@ -10,4 +10,4 @@ code: https://github.com/dric2018/ScietificPaperCBRS
 venue: CMU-Africa
 report: https://drive.google.com/file/d/1uGFDoeo8A1XUb8rJloArxej1mTn1gIpW/view
 ---
-Developed a Content-Based Recommender system for scientific papers as part of my personal project.
+Developed a Content-Based Recommender system for scientific papers as part of my personal project. The recommendation lists are generated using cosine similarity and text features extracted through TF-IDF.
