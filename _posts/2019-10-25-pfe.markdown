@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Implementation of an Intelligent System for Precision Agriculture: The Case of Cassava Production."
+date:   2019-10-25 11:35:38 +00:00
+image: /images/pfe.jpg
+categories: U
+authors: "Cédric Manouan"
+course: "End-of-Cycle Project (French version only)"
+venue: Ecole Supérieure Africaine des TIC (ESATIC)
+report: https://drive.google.com/file/d/1TfdWBcH4Jj8PFn_LgSDf69YioitkslPL/view?usp=drive_link
+---
+The evolution of information and communication technologies (ICT) has enabled the development of various sectors. Consequently, the Ivorian government has initiated the Digital Solutions Project for Rural Area Access and E-Agriculture (PSNDEA) to create digital solutions that streamline work processes and enhance the productivity of rural farmers. The proposed solution is a system primarily based on two technologies: Artificial Intelligence (AI) and the Internet of Things (IoT). This system supports farmers in managing their resources to improve their overall performance.
+
+This work is divided into three parts. The first part introduces the hosting organization and outlines the project. The second part discusses the methodology employed. Finally, the third part covers the implementation of the solution and provides a discussion of the results.

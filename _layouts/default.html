@@ -93,56 +93,60 @@
           </tr>
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
           {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'research' %}
-          <tr>
-            <td class="zoom-container" style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img class="zoom-image" src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
-
-              <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
-              <br>
-              {% if post.report %}
-              <a href="{{post.report}}">report</a> |
-              {% endif %}              
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> |
+            {% for cat in post.categories %}
+              {% if cat == 'research' %}
+                <tr>
+                  <td class="zoom-container" style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                    <img class="zoom-image" src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+                  </td>
+                  <td style="padding:2.5%;width:75%;vertical-align:middle">
+                    <h3>{{post.title}}</h3>
+                    <br>
+                    {{post.authors}}
+                    <br>
+                    <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+                    <br>
+                    {% if post.report %}
+                      <a href="{{post.report}}">report</a>
+                      {% if post.arxiv or post.video or post.poster or post.slides or post.website or post.youtube or post.code %} | {% endif %}
+                    {% endif %}
+                    {% if post.arxiv %}
+                      <a href="{{post.arxiv}}">arxiv</a>
+                      {% if post.video or post.poster or post.slides or post.website or post.youtube or post.code %} | {% endif %}
+                    {% endif %}
+                    {% if post.video %}
+                      <a href="{{post.video}}">video</a>
+                      {% if post.poster or post.slides or post.website or post.youtube or post.code %} | {% endif %}
+                    {% endif %}
+                    {% if post.poster %}
+                      <a href="{{post.poster}}">poster</a>
+                      {% if post.slides or post.website or post.youtube or post.code %} | {% endif %}
+                    {% endif %}
+                    {% if post.slides %}
+                      <a href="{{post.slides}}">slides</a>
+                      {% if post.website or post.youtube or post.code %} | {% endif %}
+                    {% endif %}
+                    {% if post.website %}
+                      <a href="{{post.website}}">website</a>
+                      {% if post.youtube or post.code %} | {% endif %}
+                    {% endif %}
+                    {% if post.youtube %}
+                      <a href="{{post.youtube}}">youtube</a>
+                      {% if post.code %} | {% endif %}
+                    {% endif %}
+                    {% if post.code %}
+                      <a href="{{post.code}}">code</a>
+                    {% endif %}
+                    <p></p>
+                    {{ post.excerpt }}
+                  </td>
+                </tr>
               {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> |
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> |
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> |
-              {% endif %}
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> |
-              {% endif %}
-              {% if post.youtube %}
-              <a href="{{post.youtube}}">youtube</a> |
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a>
-              {% endif %}
-
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
+            {% endfor %}
           {% endfor %}
         </table>
-
+        
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
@@ -154,45 +158,48 @@
           </tr>
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
           {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'U' %}
-          <tr>
-            <td class="zoom-container" style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img class="zoom-image" src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
-
-              <br>
-              <em>{{post.venue}}</em>, {{post.course}}, {{ post.date | date: "%Y" }}
-              <br>
-              {% if post.report %}
-              <a href="{{post.report}}">report</a> |
-              {% endif %}              
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> |
+            {% for cat in post.categories %}
+              {% if cat == 'U' %}
+                <tr>
+                  <td class="zoom-container" style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                    <img class="zoom-image" src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+                  </td>
+                  <td style="padding:2.5%;width:75%;vertical-align:middle">
+                    <h3>{{post.title}}</h3>
+                    <br>
+                    {{post.authors}}
+                    <br>
+                    <em>{{post.venue}}</em>, {{post.course}}, {{ post.date | date: "%Y" }}
+                    <br>
+                    {% if post.report %}
+                      <a href="{{post.report}}">report</a>
+                      {% if post.video or post.poster or post.slides or post.code %} | {% endif %}
+                    {% endif %}
+                    {% if post.video %}
+                      <a href="{{post.video}}">video</a>
+                      {% if post.poster or post.slides or post.code %} | {% endif %}
+                    {% endif %}
+                    {% if post.poster %}
+                      <a href="{{post.poster}}">poster</a>
+                      {% if post.slides or post.code %} | {% endif %}
+                    {% endif %}
+                    {% if post.slides %}
+                      <a href="{{post.slides}}">slides</a>
+                      {% if post.code %} | {% endif %}
+                    {% endif %}
+                    {% if post.code %}
+                      <a href="{{post.code}}">code</a>
+                    {% endif %}
+                    <p></p>
+                    {{ post.excerpt }}
+                  </td>
+                </tr>
               {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> |
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> |
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a>
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
+            {% endfor %}
           {% endfor %}
         </table>
+        
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
@@ -204,53 +211,59 @@
             </td>
           </tr>
         </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'other' %}
-          <tr>
-            <td class="zoom-container" style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img class="zoom-image" src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
-
-              <br>
-              <em>{{post.venue}}</em>, {{post.subtitle}}, {{ post.date | date: "%Y" }}
-              <br>
-              {% if post.report %}
-              <a href="{{post.report}}">report</a> |
-              {% endif %}              
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> |
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> |
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> |
-              {% endif %}
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> |
-              {% endif %}
-              {% if post.youtube %}
-              <a href="{{post.youtube}}">youtube</a> |
-              {% endif %}
-              {% if post.code %}
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  {% for post in site.posts %}
+    {% for cat in post.categories %}
+      {% if cat == 'other' %}
+        <tr>
+          <td class="zoom-container" style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+            <img class="zoom-image" src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+          </td>
+          <td style="padding:2.5%;width:75%;vertical-align:middle">
+            <h3>{{post.title}}</h3>
+            <br>
+            {{post.authors}}
+            <br>
+            <em>{{post.venue}}</em>, {{post.subtitle}}, {{ post.date | date: "%Y" }}
+            <br>
+            {% if post.report %}
+              <a href="{{post.report}}">report</a>
+              {% if post.video or post.poster or post.slides or post.website or post.youtube or post.code %} | {% endif %}
+            {% endif %}
+            {% if post.video %}
+              <a href="{{post.video}}">video</a>
+              {% if post.poster or post.slides or post.website or post.youtube or post.code %} | {% endif %}
+            {% endif %}
+            {% if post.poster %}
+              <a href="{{post.poster}}">poster</a>
+              {% if post.slides or post.website or post.youtube or post.code %} | {% endif %}
+            {% endif %}
+            {% if post.slides %}
+              <a href="{{post.slides}}">slides</a>
+              {% if post.website or post.youtube or post.code %} | {% endif %}
+            {% endif %}
+            {% if post.website %}
+              <a href="{{post.website}}">website</a>
+              {% if post.youtube or post.code %} | {% endif %}
+            {% endif %}
+            {% if post.youtube %}
+              <a href="{{post.youtube}}">youtube</a>
+              {% if post.code %} | {% endif %}
+            {% endif %}
+            {% if post.code %}
               <a href="{{post.code}}">code</a>
-              {% endif %}
+            {% endif %}
+            <p></p>
+            {{ post.excerpt }}
+          </td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</table>
+ 
 
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>        
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:0px">
