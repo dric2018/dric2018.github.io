@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Remote Desktop Protocol (RDP): Flaws, Impact on African Businesses, and Mitigation Techniques"
+date:   2022-05-06 11:35:38 +00:00
+image: /images/RDPArch.jpg
+categories: U
+course: 18-631 Introduction to Information Security
+authors: "Adebayo Deji, Houndji Arlette, Tenjier Comfort, <strong>Manouan Cédric</strong>, Bonou Junias, Ngabo Fabien, Ngong Ngai Mathias Ngwa, Bologo Fidelis"
+subtitle: "RDP"
+venue: CMU-Africa
+report: https://www.researchgate.net/publication/367038281_Remote_Desktop_Protocol_RDP_Flaws_Impact_on_African_Businesses_and_Mitigation_Techniques
+---
+The purpose of this project is to outline RDP, identify its shortcomings, and assess their implications for African businesses. Additionally, the work aimed to offer practical suggestions for mitigating these issues, in order to foster a more conducive environment for sustainable economic growth and development in the region.
