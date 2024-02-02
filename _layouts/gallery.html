@@ -1,0 +1,77 @@
+    <!DOCTYPE HTML>
+    <html lang="en">
+
+    <head>
+
+        <title>{{ site.name }}</title>
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    
+        <meta name="author" content="{{ site.name }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link href="https://fonts.googleapis.com/css?family=Titillium Web:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+    <style>
+        /* Additional styles can be added here or in a separate CSS file */
+    </style>
+    </head>
+
+    <!-- <body>
+    <div class="main" id="gallery">
+        <div class="gallery-main-div">
+        <div class="gallery-header">
+            <h1 class="heading gallery-heading">Cedric in images</h1>
+        </div>
+        <div class="gallery-cards-div">
+            <div class="gallery-card">
+            <img src="card-image.jpg" alt="Card Image">
+            <h2 class="card-title">Card Title</h2>
+            </div>
+        </div>
+        </div>
+    </div>
+    </body> -->
+
+    <body>
+        <div class="gallery-header">
+            <h5 class="gallery-heading">Cedric in images</h5>
+        </div>
+
+        <div class="gallery-container" id="gallery">
+            <div class="gallery-cards-div">
+                {% assign image_folder = 'images/galleryImages/' %}
+                {% assign images_per_row = 4 %}
+                {% assign image_count = 0 %}
+    
+                {% for image in site.static_files %}
+                    <!-- {% if image.path contains image_folder and image.extname == '.jpg' %} -->
+                    <div class="gallery-image-container">
+                        <img class="zoom-image" src="{{ image.path }}" alt="image"/>
+                    </div>    
+                    {% assign image_count = image_count | plus: 1 %}
+
+                    {% if image_count == images_per_row %}
+                        {% assign image_count = 0 %}
+                    {% endif %}
+                    <!-- {% endif %} -->
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="profile-content">
+            <p style="text-align:center">
+                <a target="_blank" href="mailto:manouancedric@gmail.com"> Email</a> &nbsp;/&nbsp;
+                <a href="https://github.com/dric2018">GitHub</a> &nbsp;/&nbsp;
+                <a href="https://drive.google.com/file/d/1WxSyXlYGnP2diUPwIvP91J9zpty4JfpJ/view?usp=drive_link">CV</a> &nbsp;/&nbsp;
+                <a href="https://twitter.com/cmDrStrange">Twitter</a> &nbsp;/&nbsp;
+                <a href="https://www.linkedin.com/in/cpem"> LinkedIn </a> &nbsp;/&nbsp;
+                <a href="/"> Main page </a>
+            </p>
+        </div>
+
+    </body>
+    </html>

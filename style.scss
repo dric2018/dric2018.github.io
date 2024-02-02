@@ -17,6 +17,13 @@ a {
   text-decoration: none;
 }
 
+.dark-mode {
+  background-color: #171c28;
+  color: white;
+  transition: "0.1s";
+}
+
+
 a:focus,
 a:hover {
   color: #f09228;
@@ -33,7 +40,7 @@ a {
   font-size: 18px;
   font-display: auto;
   font-weight:400;
-  text-align: justify;
+  // text-align: justify;
 }
 
 strong {
@@ -86,6 +93,144 @@ table {
   margin-left: auto;
 }
 
+.one {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.two {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #ffffd0;
+}
+
+/* New styles for responsive layout */
+@media screen and (max-width: 600px) {
+  /* Adjust the max-width as needed */
+
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center text content */
+  }
+
+  .profile-image {
+    order: -1; /* Move the image to the top */
+    // margin-bottom: 20px; /* Add some spacing between image and text */
+    padding:2.5%;
+    width:40%;
+    max-width:40%
+  }
+
+  .profile-image img {
+    margin: 0 auto; /* Center the image horizontally */
+  }
+}
+
+.profile-content{
+  text-align: justify;
+}
+
+/* Adjust image size for larger screens */
+.profile-image img {
+  width: 100%; /* Make the image responsive to its container */
+  max-width: 300px; /* Set a maximum width to control image size */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Remove any extra space below the image */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+  .gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
+    padding: 2.5px 12px;
+}
+
+
+.gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+.gallery-header-title {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 0px;
+}
+
+.gallery-container {
+  width: 70%; /* Adjust the width as needed */
+  // padding: 20px; /* Adjust the padding as needed */
+}
+.gallery-cards-div {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 1rem 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.subTitle {
+    color: #868e96;
+}
+
+.gallery-heading {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: normal;
+    // margin: 0px;
+    text-align: center;
+}
+
+
+/* Media Query */
+
+
+@media (max-width: 768px) {
+    .gallery-heading {
+        font-size: 30px;
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 991px) {
+    .gallery {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+
+}
+
+.gallery-image-container {
+  width: 100px; /* Set a fixed width for all images */
+  height: 100px; /* Set a fixed height for all images */
+  // box-sizing: border-box; /* Include padding in width calculation */
+}
+
 .zoom-container {
   position: relative;
 }
@@ -118,33 +263,3 @@ table {
     opacity: 1; /* Show the overlay on hover */
     pointer-events: auto; /* Allow mouse interactions on the overlay itself */
 }
-
-.one {
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-
-.two {
-  width: 160px;
-  height: 160px;
-  position: absolute;
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
-.fade {
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
-span.highlight {
-  background-color: #ffffd0;
-}
-
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-//@import "highlights";
-//@import "svg-icons";
