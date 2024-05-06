@@ -6,7 +6,7 @@ image: /images/young_economist_cover.png
 categories: policy
 authors: "Cédric Manouan"
 subtitle: "Rwanda National AI Policy Analysis"
-venue: Independant Draft
+venue: Independent Draft
 report: https://drive.google.com/file/d/1FOxOjF-gFtn0BmTlnP_4HU2Z2tuibLS5/view?usp=drive_link
 
 ---

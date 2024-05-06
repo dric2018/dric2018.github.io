@@ -6,7 +6,7 @@ image: /images/proposal_cover.png
 categories: policy
 authors: "Cédric Manouan"
 subtitle: "Rwanda National AI Policy Analysis"
-venue: Independant Draft
+venue: Independent Draft
 report: https://drive.google.com/file/d/16Ck8ZbZITHLA90T72F7UcYbDyobF8nUM/view?usp=drive_link
 
 ---
