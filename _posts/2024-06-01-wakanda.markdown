@@ -6,7 +6,7 @@ image: /images/afretec.png
 categories: research
 authors: "Bhiksha Raj (PI), Abraham Nyete, Moise Busogi, <strong>Cédric Manouan</strong>"
 subtitle: "NLP4Africa"
-Cource: The African Engineering and Technology Network (AFRETEC)
+venue: The African Engineering and Technology Network (AFRETEC) by CMU-Africa
 report: https://drive.google.com/file/d/13obIPp6QEvGnmpaj7whBx3KojA03BPeL/view?usp=drive_link
 website: https://wakandaai.github.io/
 ---
