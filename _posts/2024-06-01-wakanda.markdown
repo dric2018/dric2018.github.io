@@ -2,12 +2,12 @@
 layout: post
 title:  "Wakanda AI: Engineering Smart Solutions for Mother Tongues by Advancing Language Technologies in the African Context"
 date:   2024-06-03 11:35:38 +00:00
-image: /images/afretrec.png
+image: /images/afretec.png
 categories: research
-PI: "Prof. Bhiksha Raj"
-subtitle: "ML4EO"
-funders: The African Engineering and Technology Network (AFRETEC)
-proposal: https://drive.google.com/file/d/13obIPp6QEvGnmpaj7whBx3KojA03BPeL/view?usp=drive_link
+authors: "Bhiksha Raj (PI), Abraham Nyete, Moise Busogi, <strong>Cédric Manouan</strong>"
+subtitle: "NLP4Africa"
+Cource: The African Engineering and Technology Network (AFRETEC)
+report: https://drive.google.com/file/d/13obIPp6QEvGnmpaj7whBx3KojA03BPeL/view?usp=drive_link
 website: https://wakandaai.github.io/
 ---
 In Africa, practical applications of speech technologies are scarce, often limited to adjusting pre-existing models. This project aims to overcome language barriers and enhance communication by developing innovative solutions that foster global understanding and inclusion. Key goals include establishing a data repository for several African languages, and developing speech and language models talored for local use cases. 
