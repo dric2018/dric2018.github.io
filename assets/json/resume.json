@@ -1,0 +1,280 @@
+{
+  "basics": {
+    "name": "Cédric Manouan",
+    "label": "AI/Deep Learning Specialist",
+    "image": "",
+    "email": "cmanouan@alumni.cmu.edu",
+    "phone": "(+225) 07 592 015 98",
+    "url": "https://www.linkedin.com/in/cpem/",
+    "location": {
+      "address": "Cocody",
+      "postalCode": "",
+      "city": "Abidjan",
+      "countryCode": "CIV",
+      "region": "Lagunes"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "cmDrStrange",
+        "url": "https://twitter.com/cmDrStrange"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Freelance",
+      "position": "Independent Researcher and Consultant",
+      "url": "",
+      "startDate": "2025-06",
+      "summary": "",
+      "highlights": [
+        "Part-time instructor for undergrad/graduate courses",
+        "AI policy and governance in Africa",
+        "African language technologies",
+        "Deep learning engineering and AI for fun"       
+      ]
+    },
+    {
+      "name": "International Finance Corporation (IFC), World Bank Group",
+      "position": "ST Consultant – AI Associate Specialist ",
+      "url": "https://www.ifc.org/en/home",
+      "startDate": "2024-04",
+      "summary": "",
+      "highlights": [
+          "AI and Startup Ecosystem Policy Research (West and Central Africa)",
+          "Evaluation of AI-powered local solutions developed in agtech, healthtech, createch, e-mobility, e-transport, and edtech",
+          "Organized and coordinated stakeholder consultations, workshops, and roundtable discussions engaging diverse stakeholders in collaboration; support with administrative tasks",
+          "Data Analysis on funding mechanisms, regulatory bareers, and innovation support programs"      
+      ]
+    },
+    {
+      "name": "Techclick, UNDP & Ministry of ICT and Innovation (MINICT)",
+      "position": "Consultant - Rwanda AI Readiness Assessment (AIRA)",
+      "url": "",
+      "startDate": "2023-10",
+      "endDate": "2024-03",
+      "summary": "",
+      "highlights": [
+        "Supported the UNDP team with the qualitative assessment of the AI landscape",
+        "Conducted interviews with key informants from government institutions",
+        "Contributed to clarifying the roadmap for the implementation of the National AI Policy"
+      ]
+    },
+    {
+      "name": "Carnegie Mellon University Africa (CMU-Africa)",
+      "position": "Research Associate (AI & Robotics)",
+      "url": "https://www.africa.engineering.cmu.edu/research/artificial-intelligence.html",
+      "startDate": "2023-05",
+      "endDate": "2023-12",
+      "summary": "",
+      "highlights": [
+        "Assisted Prof. David Vernon with the development of a Semantically-modulated Joint Episodic-Procedural (S-JEP) Working Associative Memory",
+        "Proposed and implemented RT1-CRAM, a candidate S-JEP architecture",
+        "Managed and executed compute-intensive jobs on a supercomputer using Slurm for job scheduling and resource allocation"   
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "AFRETEC Network",
+      "location": "(Remote) Kigali, Rwanda",
+      "position": "Lead AI Engineer",
+      "url": "https://engineering.cmu.edu/afretec/",
+      "startDate": "2024-07-01",
+      "endDate": "2025-06-30",
+      "summary": "",
+      "highlights": [
+        "Managing the Wakanda AI project team under the Supervision of Prof Bhiksha Raj, Dr Moise Busogi, and Dr Abraham Nyete",
+        "Contributed to the drafting of the cross-university research proposal", 
+        "Initiated work on R&D: Speech processing, Language modeling, Seamless communication in African languages", 
+        "Team Assistant for administrative, monitoring, and coordination tasks"]
+    },
+    {
+      "organization": "Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support (ACCESS)",
+      "location": "(Remote) USA",
+      "position": "Member of the Researcher Advisory Committee",
+      "url": "https://access-ci.org/",
+      "startDate": "2023",
+      "endDate": "2025",
+      "summary": "Making suggestions to improve allocations, support, and operations",
+      "highlights": []
+    },
+    {
+      "organization": "International Conference on Learning Representations (ICLR)",
+      "location": "Kigali, Rwanda",
+      "position": "Student Volunteer",
+      "url": "https://engineering.cmu.edu/afretec/",
+      "startDate": "2024-07-01",
+      "endDate": "2025-06-30",
+      "summary": "Volunteered at ICLR 2023, actively contributed to assisting attendees, and ensuring smooth operations",
+      "highlights": []
+    },
+    {
+      "organization": "CMU-Africa Data Science Club",
+      "location": "Abidjan, Cote d'Ivoire",
+      "position": "Zindi University Ambassador",
+      "url": "https://zindi.africa/",
+      "startDate": "2020-06",
+      "endDate": "2021-07",
+      "summary": "",
+      "highlights": [
+        "Motivated fellow students to join the Zindi network",
+        "Co-lead of the platform development group (improvements and new ideas)"
+      ]
+    },
+    {
+      "organization": "Zindi",
+      "location": "Kigali, Rwanda",
+      "position": "President",
+      "url": "https://www.africa.engineering.cmu.edu/students/activities-clubs.html",
+      "startDate": "2021-12",
+      "endDate": "2022-11",
+      "summary": "Managed an increadible team of fellow graduate students passionate about AI and data science",
+      "highlights": []
+    }
+
+  ],
+  "education": [
+    {
+      "institution": "Carnegie Mellon University Africa, Rwanda",
+      "location": "Kigali, Rwanda",
+      "url": "https://www.africa.engineering.cmu.edu/",
+      "area": "Information Technology (Applied Machine Learning)",
+      "studyType": "Master of Science",
+      "startDate": "2021-08",
+      "endDate": "2023-05",
+      "score": "3.4",
+      "courses": []
+    },
+    {
+      "institution": "ESATIC, Cote d'Ivoire",
+      "location": "Abidjan, Cote d'Ivoire",
+      "url": "https://www.esatic.ci/",
+      "area": "Information Systems and Software Engineering",
+      "studyType": "Master of Science (Semester 7 - Dropout)",
+      "startDate": "2019-10",
+      "endDate": "2020-03",
+      "score": "10",
+      "courses": []
+    },
+      {
+      "institution": "ESATIC, Cote d'Ivoire",
+      "location": "Abidjan, Cote d'Ivoire",
+      "url": "https://www.esatic.ci/",
+      "area": "Systems, Computer Networks and Telecommnications",
+      "studyType": "Bachelor of Science",
+      "startDate": "2016-10",
+      "endDate": "2019-09",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Full Scholarship @CMU",
+      "date": "2021-05-01",
+      "awarder": "Mastercard Foundation",
+      "url": "https://www.africa.engineering.cmu.edu/impact/mastercard-foundation-scholars.html",
+      "summary": "First Ivorian to join CMU-Africa. Merit-based scholarship awarded to students with a keen willingness to give back to their community."
+    },
+    {
+      "title": "Wakanda AI - Advanced Speech Technologies for African Languages (2024-2027)",
+      "date": "2024-06-01",
+      "awarder": "Mastercard Foundation",
+      "url": "https://engineering.cmu.edu/afretec/research/index.html",
+      "summary": "$250,000 Research grant to Advance the Inclusive Digital Transformation of Africa, funded by the Mastercard Foundation through the AFRETEC Network"
+    },
+    {
+      "title": "Full Scholarship @ESATIC",
+      "date": "2016-10",
+      "awarder": "Government of Côte d'Ivoire",
+      "url": "https://esatic.ci/",
+      "summary": "Competitive government scholarship to support studies at ESATIC."
+    }
+
+  ],
+"skills": [
+  {
+    "name": "Consulting",
+    "level": "Advanced",
+    "icon": "fa-solid fa-briefcase",
+    "keywords": [
+      "AI Policy",
+      "AI Engineering",
+      "Project Management"
+    ]
+  },
+  {
+    "name": "Programming",
+    "level": "Advanced",
+    "icon": "fa-solid fa-code",
+    "keywords": [
+      "Python",
+      "C++",
+      "Data Structures and Algorithms",
+      "API Development",
+      "FastAPI",
+      "NodeJS"
+    ]
+  },
+  {
+    "name": "Software/AI Engineering",
+    "level": "Advanced",
+    "keywords": [
+      "Deep Learning (R&D)",
+      "PyTorch (Vanilla/Lightning)",
+      "Transformers",
+      "SLURM: Job Scheduling, Resource Management, Batch Script Development",
+      "Amazon Web Services (AWS)",
+      "EC2"
+    ]
+
+  }
+],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    }
+  ],
+  "references": [
+    {
+      "name": "Prof. Bhiksha Raj",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Professor, Language Technologies Institute, CMU, bhiksha@cs.cmu.edu"
+    },
+    {
+      "name": "Prof. Mark Kryder",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Emeritus ECE Professor, CMU, mk6x@andrew.cmu.edu"
+    },
+    {
+      "name": "Dr. George Okeyo",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Director of Academics, CMU-Africa, gokeyo@andrew.cmu.edu"
+    },
+    {
+      "name": "Dr. Moise Busogi ",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Assitant Teaching Professor, CMU-Africa, mbusogi@andrew.cmu.edu"
+    },
+    {
+      "name": "Paul Kenedy",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Chief of Staff, Zindi, paul@zindi.africa"
+    },
+    {
+      "name": "Meritxell Martinez",
+      "icon": "fa-solid fa-thumbtack",
+      "url": "",
+      "reference": "Senior Operations Officer, IFC/World Bank Group, mmartinez1@ifc.org"
+    }
+
+  ]
+}
