@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    Cédric Manouan
+  
+</title>
+<meta name="author" content="Cédric Manouan">
+<meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
+
+  <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+
+
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+
+
+
+  <link rel="shortcut icon" href="/assets/img/favicon.ico?65f3d33e99cb05e63a94a80f553098b1">
+
+<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+<link rel="canonical" href="https://dric2018.github.io/">
+
+<!-- Dark Mode -->
+<script src="/assets/js/theme.js?a81d82887dd692e91686b43de4542f18"></script>
+
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/">About
+              
+                <span class="sr-only">(current)</span>
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/projects/">Projects
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/cv/">CV
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/news/">News
+                    
+                  </a>
+                </li>
+              
+            
+          
+          
+            <!-- Search -->
+            <!--<li class="nav-item">
+              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              </button>
+            </li> -->
+           
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme">
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <div class="container mt-5" role="main">
+      
+        <div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      
+        <span class="font-weight-bold">Cédric</span> 
+        Manouan
+      
+    </h1>
+    <p class="desc">Let’s tell the world our own story</p>
+  </header>
+
+  <article>
+    
+      <div class="profile float-right">
+        
+          
+          
+          
+          
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/prof_pic-480.webp 480w,/assets/img/prof_pic-800.webp 800w,/assets/img/prof_pic-1400.webp 1400w," type="image/webp" sizes="(min-width: 930px) 270.0px, (min-width: 576px)
+      30vw, 95vw">
+      
+    
+    <img src="/assets/img/prof_pic.png?ae0f198246e31723fd122aefb4318a89" class="img-fluid z-depth-1
+      rounded" width="100%" height="auto" alt="prof_pic.png" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </source></picture>
+
+  
+</figure>
+
+        
+        
+      </div>
+    
+
+    <div class="clearfix">
+<p>Hello from the other side! I am an AI Specialist and Deep Learning Engineer who loves building neural networks of all kinds…among other things.</p>
+
+<p>I previously served as an Associate Researcher within the AI &amp; Robotics Lab at <a href="https://www.africa.engineering.cmu.edu/" rel="external nofollow noopener" target="_blank">Carnegie Mellon University Africa</a>, which is affiliated with the <a href="https://engineering.cmu.edu/" rel="external nofollow noopener" target="_blank">College of Engineering</a> at <a href="https://www.cmu.edu/" rel="external nofollow noopener" target="_blank">Carnegie Mellon University</a>. Under the supervision of <a href="http://vernon.eu/personal.htm" rel="external nofollow noopener" target="_blank">Prof. David Vernon</a>, I was engaged in research focused on the practical applications of Natural Language Processing within the field of cognitive robotics.</p>
+
+<p>I hold a Master’s degree in <code class="language-plaintext highlighter-rouge">Information Technology (Applied Machine Learning)</code> from <a href="https://www.cmu.edu/" rel="external nofollow noopener" target="_blank">Carnegie Mellon University</a>, where I was fortunate to work as a research assistant for <a href="https://africa.engineering.cmu.edu/about/contact/directory/bios/busogi-moise.html" rel="external nofollow noopener" target="_blank">Dr. Moise Busogi</a> (also a Teaching Assistant for his <a href="https://www.africa.engineering.cmu.edu/academics/courses/04-800-AB.html" rel="external nofollow noopener" target="_blank">04-800 AB ML4EO</a> course) and a Teaching Assistant for <a href="https://www.africa.engineering.cmu.edu/about/contact/directory/bios/ramakrishnan-bhiksha-raj.html" rel="external nofollow noopener" target="_blank">Prof. Bhiksha Raj</a> (<a href="https://deeplearning.cs.cmu.edu/F22/index.html" rel="external nofollow noopener" target="_blank">11-785 Introduction to Deep Learning</a>) in Fall 2022 &amp; Spring 2023.<br>
+Prior to joining CMU, I completed my BSc. in Systems, Computer Networks and Telecommunications (SRIT) at <a href="https://esatic.ci/" rel="external nofollow noopener" target="_blank">ESATIC</a>, where I worked in the Innovation and Development Unit (CID) reporting to Dr. Ghislain Pandry and Dr. Franklin Kouassi.</p>
+
+<h2 id="research-interests--deep-learning-engineering">Research Interests &amp; Deep Learning Engineering</h2>
+
+<p>I have a broad interest in leveraging speech and NLP techniques to address communication barriers and access to high-quality knowledge in the context of African languages. My research activities, to date, have revolved around the implementation of ML/DL models for various applications, such as automatic speech recognition, text and image classification, and machine learning for Earth Observation (ML4EO). You can find some of my work by navigating to the <code class="language-plaintext highlighter-rouge">projects</code> page.</p>
+
+<p>My recent assignments involved exploring the utilization of robot control networks and approaches from Vision-Language-Action (VLA) modeling for semantically modulating Joint Episodic-Procedural Associative Working Memories. In this study, my primary objective was to create a Behavioral Episode model referred to as S-JEP, implementing the working memory which is at the core of the <a href="https://www.uni-bielefeld.de/einrichtungen/zif/groups/previous/archive-rg/2019cognitive-behavior/" rel="external nofollow noopener" target="_blank">Situation Model Framework</a>.</p>
+
+<p>I have also been delving into exploring the concepts of “System 2 Deep Learning” and “Autonomous Machine Intelligence” inspired by ideas presented by Prof. Yann Lecun (see the <a href="https://openreview.net/pdf?id=BZ5a1r-kVsf" rel="external nofollow noopener" target="_blank">corresponding paper</a> and his talk <a href="https://www.youtube.com/watch?v=OKkEdTchsiE&amp;ab_channel=InstitutdesHautes%C3%89tudesScientifiques%28IH%C3%89S%29" rel="external nofollow noopener" target="_blank">here</a>) and Prof. Yoshua Bengio (you can watch one of his talks on the topic <a href="https://www.youtube.com/watch?v=T3sxeTgT4qc&amp;t=754s&amp;ab_channel=LexClips" rel="external nofollow noopener" target="_blank">here</a>).<br>
+It’s worth noting that both of these ideas expand upon the concept of the Dual-system theory, which was popularized by Daniel Kahneman in <em>Thinking Fast and Slow</em> (<a href="https://www.youtube.com/watch?v=gmjgZF2HEwI&amp;t=3936s&amp;ab_channel=LongNowFoundation" rel="external nofollow noopener" target="_blank">Talk</a>/<a href="https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555" rel="external nofollow noopener" target="_blank">Book</a>).</p>
+
+<p>I have a particular affinity for subjects related to <a href="https://www.africa.engineering.cmu.edu/academics/courses/04-800-AD.html" rel="external nofollow noopener" target="_blank">Leading and Managing Technological Innovation</a>. My enthusiasm for this area intensified following my enrollment in a course of the same name, instructed by <a href="https://www.africa.engineering.cmu.edu/about/contact/directory/bios/kryder-mark.html" rel="external nofollow noopener" target="_blank">Prof. Mark Kryder</a>.</p>
+
+<p>In the context of African AI policy, I am keenly interested in examining the performance of our countries across five (5) key axes:</p>
+
+<ol>
+  <li>Algorithms (ML/DL)</li>
+  <li>Data (Text, Images, Speech, etc.)</li>
+  <li>Compute infrastructures (Effective supercomputing power…compute (GPU) clusters essentially)</li>
+  <li>Workforce and Key Players/Contributors (AI specialists; Dissemination levels)</li>
+  <li>Regulations (Safety, Ethics, Security &amp; data privacy)</li>
+</ol>
+</div>
+
+
+    <!-- Image Carousel -->
+    
+    
+    
+
+    <div id="carouselExampleIndicators" class="carousel slide mb-4" data-ride="carousel">
+      <ol class="carousel-indicators">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="1" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="2" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="3" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="4" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="5" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="6" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="7" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="8" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="9" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="10" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="11" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="12" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="13" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="14" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="15" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="16" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="17" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="18" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="19" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="20" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="21" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="22" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="23" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="24" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="25" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="26" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="27" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="28" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="29" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="30" class="">
+        
+          <li data-target="#carouselExampleIndicators" data-slide-to="31" class="">
+        
+      </ol>
+
+      <div class="carousel-inner">
+        
+          <div class="carousel-item active">
+            <img src="/assets/carousel/51742637077_5fd854698b_c.jpg" class="d-block w-100 rounded" alt="Slide 1">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/51742637137_1cde22df26_c.jpg" class="d-block w-100 rounded" alt="Slide 2">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/51744351035_a5c1f8e3b2_c.jpg" class="d-block w-100 rounded" alt="Slide 3">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/Dric.jpg" class="d-block w-100 rounded" alt="Slide 4">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/DricDegree2.jpg" class="d-block w-100 rounded" alt="Slide 5">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/DricFlag.jpg" class="d-block w-100 rounded" alt="Slide 6">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/DricSmile.jpg" class="d-block w-100 rounded" alt="Slide 7">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/ICLR_volunteers.jpg" class="d-block w-100 rounded" alt="Slide 8">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/IMG_0523.jpg" class="d-block w-100 rounded" alt="Slide 9">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/IMG_0570.jpg" class="d-block w-100 rounded" alt="Slide 10">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/IMG_0577.jpg" class="d-block w-100 rounded" alt="Slide 11">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/IMG_0621.jpg" class="d-block w-100 rounded" alt="Slide 12">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/IMG_4661.jpg" class="d-block w-100 rounded" alt="Slide 13">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/IMG_4664.jpg" class="d-block w-100 rounded" alt="Slide 14">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/IMG_9936.jpg" class="d-block w-100 rounded" alt="Slide 15">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/Me.jpg" class="d-block w-100 rounded" alt="Slide 16">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/SSP_3357.jpg" class="d-block w-100 rounded" alt="Slide 17">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/SSP_3362_page0_image.jpg" class="d-block w-100 rounded" alt="Slide 18">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/SSP_3382.jpg" class="d-block w-100 rounded" alt="Slide 19">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/SSP_3383.jpg" class="d-block w-100 rounded" alt="Slide 20">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/SSP_3384.jpg" class="d-block w-100 rounded" alt="Slide 21">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/SSP_3393.jpg" class="d-block w-100 rounded" alt="Slide 22">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/clubLeaders.jpg" class="d-block w-100 rounded" alt="Slide 23">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/cmanouan_photo.jpg" class="d-block w-100 rounded" alt="Slide 24">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/cmanouan_pitts.jpg" class="d-block w-100 rounded" alt="Slide 25">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/crowd.jpg" class="d-block w-100 rounded" alt="Slide 26">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/fam.jpg" class="d-block w-100 rounded" alt="Slide 27">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/laugh.jpg" class="d-block w-100 rounded" alt="Slide 28">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/pp1.jpg" class="d-block w-100 rounded" alt="Slide 29">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/sammy_Bengio.jpg" class="d-block w-100 rounded" alt="Slide 30">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/unicorn.jpg" class="d-block w-100 rounded" alt="Slide 31">
+          </div>
+        
+          <div class="carousel-item ">
+            <img src="/assets/carousel/us.jpg" class="d-block w-100 rounded" alt="Slide 32">
+          </div>
+        
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- News -->
+    
+      <h2>
+        <a href="/news/" style="color: inherit">news</a>
+      </h2>
+      <div class="news">
+  
+    
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        
+        
+        
+          <tr>
+            <th scope="row" style="width: 20%">Jul 05, 2025</th>
+            <td>
+              
+                <a class="news-title" href="/news/announcement_2/">🌍 Global AI Summit on Africa</a>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <th scope="row" style="width: 20%">Mar 22, 2025</th>
+            <td>
+              
+                <a class="news-title" href="/news/announcement_1/">🇨🇮 Côte d’Ivoire Unveils National Data Governance &amp; AI Strategies</a>
+              
+            </td>
+          </tr>
+        
+      </table>
+    </div>
+  
+</div>
+
+    
+
+    <!-- Social -->
+    
+      <div class="social">
+        <div class="contact-icons">
+  
+      <a href="mailto:%63%6D%61%6E%6F%75%61%6E@%61%6C%75%6D%6E%69.%63%6D%75.%65%64%75" title="email"><i class="fa-solid fa-envelope"></i></a>
+    
+
+  
+      <a href="https://github.com/dric2018" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a>
+    
+
+  
+      <a href="https://www.linkedin.com/in/cpem" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    
+
+  
+      <a href="https://twitter.com/cmDrStrange" title="X" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+    
+
+</div>
+
+        <div class="contact-note">Email and Linkedin are the quickest ways to reach me.
+</div>
+      </div>
+    
+
+    
+  </article>
+</div>
+
+      
+    </div>
+
+    <!-- Footer -->
+    
+
+
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      
+  © Copyright 2025
+  Cédric
+  
+  Manouan. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
+
+  
+  
+    Last updated: July 18, 2025.
+  
+
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script>
+<script defer src="/assets/js/copy_code.js?c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+<!-- Badges -->
+
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+
+
+  <!-- MathJax -->
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script>
+  
+    <script src="/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script>
+    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+  <!-- Scrolling Progress Bar -->
+  <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
+
+
+
+
+
+
+
+  <!-- Back to Top -->
+  <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
+  <script>
+    addBackToTop();
+  </script>
+
+
+
+  <!-- Search -->
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script>
+  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
+  <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script>
+  <script src="/assets/js/search-data.js"></script>
+  <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script>
+
+
+
+
+  </body>
+</html>
