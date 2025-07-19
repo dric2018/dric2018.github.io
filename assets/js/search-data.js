@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-blog",
+          title: "Blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
         },{id: "nav-news",
           title: "News",
           description: "",
@@ -30,48 +37,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "post-ensuring-africa-s-workforce-drives-shared-prosperity",
         
-          title: "a post with plotly.js",
+          title: "Ensuring Africa’s Workforce Drives Shared Prosperity",
         
-        description: "this is what included plotly.js code could look like",
+        description: "A commentary about Africa&#39;s potential for tech talents",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/plotly/";
+            window.location.href = "/blog/2025/african-talents/";
           
         },
-      },{id: "post-a-post-with-image-galleries",
+      },{id: "post-digital-umuganda-2025-kinyarwanda-asr-hack",
         
-          title: "a post with image galleries",
+          title: "Digital Umuganda 2025 Kinyarwanda ASR Hack",
         
-        description: "this is what included image galleries could look like",
+        description: "An example EDA and implementation of data modules to facilitate participation in ASR hackathon.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-a-post-with-tabs",
-        
-          title: "a post with tabs",
-        
-        description: "this is what included tabs in a post could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/tabs/";
-          
-        },
-      },{id: "post-a-post-with-code",
-        
-          title: "a post with code",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/code/";
+            window.location.href = "/blog/2025/jupyter-notebook/";
           
         },
       },{id: "news-côte-d-ivoire-unveils-national-data-governance-amp-ai-strategies",
