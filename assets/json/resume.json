@@ -170,6 +170,13 @@
     }
   ],
   "awards": [
+      {
+      "title": "Hackade ARC Challenge Africa",
+      "date": "2025-08-07",
+      "awarder": "Zindi",
+      "url": "https://zindi.africa/competitions/the-arc-challenge-africa",
+      "summary": "Selected as one of the official prize winners of sponsored flights to attend Deep Learning Indaba 2025 in Kigali, Rwanda."
+    },
     {
       "title": "Full Scholarship @CMU",
       "date": "2021-05-01",
@@ -222,11 +229,11 @@
     "level": "Advanced",
     "keywords": [
       "Deep Learning (R&D)",
+      "Natural Language & Speech Processing",
       "PyTorch (Vanilla/Lightning)",
       "Transformers",
       "SLURM: Job Scheduling, Resource Management, Batch Script Development",
-      "Amazon Web Services (AWS)",
-      "EC2"
+      "Amazon Web Services (AWS) - EC2"
     ]
 
   }
