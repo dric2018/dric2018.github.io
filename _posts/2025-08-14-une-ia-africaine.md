@@ -6,13 +6,12 @@ description: L'IA qui correspondra à nos réalité
 tags: policy comments skills
 categories: opinions
 featured: true
-# last_updated: 2025-07-19 10:09:00
+last_updated: 2025-08-14 21:07:00
 author: Cédric M.
 ---
 
-## Nous avons presque tout pour réussir !
-![Une IA qui nous comprend mieux](/assets/img/IC.jpg)
-
+## Savons-nous que...
+<img src="/assets/img/IC.jpg" alt="Description" style="display: block; margin: auto;" height="300px" width="500"/>
 
 Dans un monde où les ressources sont limitées et inégalement accessibles, repenser les modèles existants pour des cas d’usage spécifiques est une opportunité stratégique. Cela exige une combinaison d’expertise technique #skills, une compréhension approfondie des problématiques autour de la donnée #data et une infrastructure robuste #compute. 
 
