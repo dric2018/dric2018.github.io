@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
-        },{id: "post-ensuring-africa-s-workforce-drives-shared-prosperity",
+        },{id: "post-l-39-intelligence-artificielle-à-l-39-africaine",
+        
+          title: "L&#39;Intelligence Artificielle à l&#39;Africaine",
+        
+        description: "L&#39;IA qui correspondra à nos réalité",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/une-ia-africaine/";
+          
+        },
+      },{id: "post-ensuring-africa-s-workforce-drives-shared-prosperity",
         
           title: "Ensuring Africa’s Workforce Drives Shared Prosperity",
         
