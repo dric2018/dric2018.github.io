@@ -5,7 +5,7 @@ date: 2025-07-16 10:09:00
 description: A commentary about Africa's potential for tech talents
 tags: policy comments skills
 categories: opinions
-featured: true
+# featured: true
 last_updated: 2025-07-19 10:09:00
 author: Cédric M.
 ---
