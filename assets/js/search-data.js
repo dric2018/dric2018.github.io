@@ -37,18 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
-        },{id: "post-key-takeaways-from-the-world-bank-39-s-strategic-approaches-to-ai",
-        
-          title: "Key Takeaways from The World Bank&#39;s Strategic Approaches to AI",
-        
-        description: "Summary of a Handbook for Policy Makers...in Low- and Middle-Income Countries (LMICs)",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/strategic-approaches-to-ai/";
-          
-        },
-      },{id: "post-l-39-intelligence-artificielle-à-l-39-africaine",
+        },{id: "post-l-39-intelligence-artificielle-à-l-39-africaine",
         
           title: "L&#39;Intelligence Artificielle à l&#39;Africaine",
         
