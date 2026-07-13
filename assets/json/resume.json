@@ -1,10 +1,10 @@
 {
   "basics": {
-    "name": "Cédric Manouan",
-    "label": "AI/Deep Learning Specialist",
-    "image": "",
-    "email": "manouancedric@gmail.com",
-    "phone": "(+225) 07 592 015 98",
+    "name": "Cédric M.",
+    "label": "AI Specialist",
+    "image": "/assets/img/cedric_headshot_.PNG",
+    "email": "cedric.manouan@diprai.com",
+    "phone": "",
     "url": "https://www.linkedin.com/in/cpem/",
     "location": {
       "address": "Cocody",
@@ -23,6 +23,19 @@
   },
   "work": [
     {
+      "name": "DipR AI",
+      "position": "Co-Founder & CEO",
+      "url": "https://diprai.com/",
+      "startDate": "2026-05",
+      "summary": "Building the Intelligence Layer for African AI",
+      "highlights": [
+        "Deep Learning",
+        "Applied Research",
+        "Language Technologies",
+        "AI Safety and Security"
+      ]
+    },
+    {
       "name": "Freelance",
       "position": "Independent Researcher and Consultant",
       "url": "",
@@ -37,16 +50,20 @@
     },
     {
       "name": "International Finance Corporation (IFC), World Bank Group",
-      "position": "ST Consultant – AI Associate Specialist ",
+      "position": "ST Consultant - AI Associate Specialist ",
       "url": "https://www.ifc.org/en/home",
       "startDate": "2024-04",
+      "endDate": "2026-12",
       "summary": "",
       "highlights": [
-          "AI and Startup Ecosystem Policy Research (West and Central Africa)",
-          "Evaluation of AI-powered local solutions developed in agtech, healthtech, createch, e-mobility, e-transport, and edtech",
-          "Organized and coordinated stakeholder consultations, workshops, and roundtable discussions engaging diverse stakeholders in collaboration; support with administrative tasks",
-          "Data Analysis on funding mechanisms, regulatory bareers, and innovation support programs"      
-      ]
+        "Coordinated internal and external dissemination of project outputs",
+        "Supported the WBG teams on AI compute projects",
+        "AI and Startup Ecosystem Policy Research (West and Central Africa)",
+        "Evaluation of AI-powered local solutions developed in agtech, healthtech, createch, e-mobility, e-transport, and edtech",
+        "Organized and coordinated stakeholder consultations, workshops, and roundtable discussions engaging diverse stakeholders in collaboration; support with administrative tasks",
+        "Data Analysis on funding mechanisms, regulatory bareers, and innovation support programs"      
+    
+        ]
     },
     {
       "name": "Techclick, UNDP & Ministry of ICT and Innovation (MINICT)",
