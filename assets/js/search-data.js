@@ -80,12 +80,17 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
+            },},{id: "news-vibeathon-ci-2026",
+          title: '🇨🇮 VIBEATHON CI 2026',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/vibeathon2026/";
             },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6D%61%6E%6F%75%61%6E%63%65%64%72%69%63@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%63%65%64%72%69%63.%6D%61%6E%6F%75%61%6E@%64%69%70%72%61%69.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-github',
