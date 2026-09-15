@@ -1,0 +1,38 @@
+/*****************************
+ * About shared styles
+ *****************************/
+.badge-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.research-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.4;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.research-badge:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.badge-separator {
+  color: #94a3b8; /* muted slate */
+  font-weight: 300;
+  margin: 0 -0.15rem;
+  user-select: none;
+}
+.badge-asr    { background-color: #e0f2fe; color: #0369a1; border: 1px solid #bae6fd; }
+.badge-nlp    { background-color: #f0fdf4; color: #15803d; border: 1px solid #bbf7d0; }
+.badge-agents { background-color: #faf5ff; color: #6b21a8; border: 1px solid #e9d5ff; }
+.badge-hci    { background-color: #fff7ed; color: #c2410c; border: 1px solid #ffedd5; }
+.badge-ai-safety   { background-color: #f1f5f9; color: #334155; border: 1px solid #e2e8f0; }

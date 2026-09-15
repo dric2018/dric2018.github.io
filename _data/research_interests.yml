@@ -2,7 +2,7 @@
   class: "badge-asr"
   url: "/projects/#speech"
 
-- label: "Machine Translation & Low-resource NLP"
+- label: "Machine Translation & NLP"
   class: "badge-nlp"
 
 - label: "Agentic Workflows"
