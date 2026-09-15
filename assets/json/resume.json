@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Cédric M.",
-    "label": "AI Specialist",
+    "label": "Applied AI Research Engineer",
     "image": "/assets/img/cedric_headshot_.PNG",
     "email": "cedric.manouan@diprai.com",
     "phone": "",
@@ -23,8 +23,8 @@
   },
   "work": [
     {
-      "name": "DipR AI",
-      "position": "Co-Founder & CEO",
+      "name": "DipR AI (Stealth)",
+      "position": "Founder & CEO",
       "url": "https://diprai.com/",
       "startDate": "2026-05",
       "summary": "Building the Intelligence Layer for African AI",
@@ -43,6 +43,7 @@
       "summary": "",
       "highlights": [
         "Part-time instructor for undergrad/graduate courses",
+        "Volunteer Teaching Assistant, 11785-Introduction to Deep Leanring @CMU",
         "AI policy and governance in Africa",
         "African language technologies",
         "Deep learning engineering and AI for fun"       
@@ -53,7 +54,7 @@
       "position": "ST Consultant - AI Associate Specialist ",
       "url": "https://www.ifc.org/en/home",
       "startDate": "2024-04",
-      "endDate": "2026-12",
+      "endDate": "2026-07",
       "summary": "",
       "highlights": [
         "Coordinated internal and external dissemination of project outputs",
@@ -223,9 +224,9 @@
     "level": "Advanced",
     "icon": "fa-solid fa-briefcase",
     "keywords": [
-      "AI Policy",
-      "AI Engineering",
-      "Project Management"
+      "AI Governance (Policy Analyst)",
+      "AI Engineering (Design & implementation of AI/Language-based Systems)",
+      "Project Management (Design, engineering, budgeting, M&E, etc.)"
     ]
   },
   {
@@ -279,9 +280,14 @@
       "reference": "Emeritus ECE Professor, CMU, mk6x@andrew.cmu.edu"
     },
     {
-      "name": "Dr. George Okeyo",
+      "name": "Prof. David Vernon",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Director of Academics, CMU-Africa, gokeyo@andrew.cmu.edu"
+      "reference": "Emeritus Research Professor, CMU-Africa, david@vernon.eu"
+    },
+    {
+      "name": "Ms. Jeanne Yamfashije",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Lead Project Manager, Techclick & Smart Africa, jeanne@techclick.rw"
     },
     {
       "name": "Dr. Moise Busogi ",
@@ -289,10 +295,16 @@
       "reference": "Assitant Teaching Professor, CMU-Africa, mbusogi@andrew.cmu.edu"
     },
     {
-      "name": "Paul Kenedy",
+      "name": "Paul Nguyen",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Chief of Staff, Zindi, paul@zindi.africa"
+      "reference": " Digital Specialist, The World Bank, pnguyen19@worldbank.org"
     },
+    {
+      "name": "Mrs. Armelle Gnassou",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Director, DSTD/Ivorian Electricity Company, nagnassou@cie.ci "
+    },
+
     {
       "name": "Meritxell Martinez",
       "icon": "fa-solid fa-thumbtack",

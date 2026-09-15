@@ -1,0 +1,17 @@
+{% comment %} <div class="badge-container" aria-label="Research Interests">
+  <span class="research-badge badge-asr">Automatic Speech Recognition</span>
+  <span class="research-badge badge-nlp">Machine Translation &amp; Multilingual</span>
+  <span class="research-badge badge-agents">Agentic Workflows</span>
+  <span class="research-badge badge-hci">AI Governance &amp; HCI</span>
+  <span class="research-badge badge-math">Optimization &amp; Probability</span>
+</div> {% endcomment %}
+
+<div class="badge-container" aria-label="Research Interests">
+  {% for item in site.data.research_interests %}
+    {% if item.url %}
+      <a href="{{ item.url }}" class="research-badge {{ item.class }}">{{ item.label }}</a>
+    {% else %}
+      <span class="research-badge {{ item.class }}">{{ item.label }}</span>
+    {% endif %}
+  {% endfor %}
+</div>

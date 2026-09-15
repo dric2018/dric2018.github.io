@@ -1,0 +1,16 @@
+- label: "Automatic Speech Recognition"
+  class: "badge-asr"
+  url: "/projects/#speech"
+
+- label: "Machine Translation & Low-resource NLP"
+  class: "badge-nlp"
+
+- label: "Agentic Workflows"
+  class: "badge-agents"
+
+- label: "AI Safety & Security"
+  class: "badge-ai-safety"
+
+- label: "AI Governance & HCI"
+  class: "badge-hci"
+  url: "/projects/#crossroad"

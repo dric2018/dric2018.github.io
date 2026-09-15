@@ -31,14 +31,16 @@ latest_posts:
 
 Hello from the other side! I am an AI Specialist and Deep Learning Engineer who loves building neural networks of all kinds...among other things.
 
-I'm an incoming AI Safety and Security PhD Student of the [Doctoral Polytecnic School](https://edp.inphb.ci/neww/) at the `Felix Houphouët Boigny National Polytechnic Institute` in Yamoussoukro, Côte d'Ivoire.
+<!-- I'm an incoming AI Safety and Security PhD Student of the [Doctoral Polytecnic School](https://edp.inphb.ci/neww/) at the `Felix Houphouët Boigny National Polytechnic Institute` in Yamoussoukro, Côte d'Ivoire. -->
+My most recent work has been in the area of AI policy and Infrastructure, serving as an AI Associate Specialist with the [International Finance Corporation (IFC)](https://www.ifc.org/en/home) on the Country Advisory and Economics (CAE) Unit.
 
 I previously served as an Associate Researcher within the AI & Robotics Lab at [Carnegie Mellon University Africa](https://www.africa.engineering.cmu.edu/), which is affiliated with the [College of Engineering](https://engineering.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/). Under the supervision of [Prof. David Vernon](http://vernon.eu/personal.htm), I was engaged in research focused on the practical applications of Natural Language Processing within the field of cognitive robotics.
 
-I hold a Master's degree in `Information Technology (Applied Machine Learning)` from [Carnegie Mellon University](https://www.cmu.edu/), where I was fortunate to work as a research assistant for [Dr. Moise Busogi](https://africa.engineering.cmu.edu/about/contact/directory/bios/busogi-moise.html) (also a Teaching Assistant for his [04-800 AB ML4EO](https://www.africa.engineering.cmu.edu/academics/courses/04-800-AB.html) course) and a Teaching Assistant for [Prof. Bhiksha Raj](https://www.africa.engineering.cmu.edu/about/contact/directory/bios/ramakrishnan-bhiksha-raj.html) ([11-785 Introduction to Deep Learning](https://deeplearning.cs.cmu.edu/F22/index.html)) in Fall 2022 & Spring 2023.  
+I hold a Master's degree in `Information Technology (Applied Machine Learning)` from [Carnegie Mellon University](https://www.cmu.edu/), where I was fortunate to work as a research assistant for [Dr. Moise Busogi](https://africa.engineering.cmu.edu/about/contact/directory/bios/busogi-moise.html) (also a Teaching Assistant for his [04-800 AB ML4EO](https://www.africa.engineering.cmu.edu/academics/courses/04-800-AB.html) course) and a Teaching Assistant for [Prof. Bhiksha Raj](https://www.africa.engineering.cmu.edu/about/contact/directory/bios/ramakrishnan-bhiksha-raj.html) ([11-785 Introduction to Deep Learning](https://deeplearning.cs.cmu.edu/F26/index.html)) in Fall 2022, Spring 2023 and Fall 2026.  
 Prior to joining CMU, I completed my BSc. in Systems, Computer Networks and Telecommunications (SRIT) at [ESATIC](https://esatic.ci/), where I worked in the Innovation and Development Unit (CID) reporting to Dr. Ghislain Pandry and Dr. Franklin Kouassi.
 
 ## Research Interests
+{% include research-badges.liquid %}
 
 I have a broad interest in leveraging NLP techniques to address communication barriers and access to high-quality knowledge in the context of African languages. My research activities, to date, have revolved around the implementation of ML/DL models for various applications, such as automatic speech recognition, text and image classification, and machine learning for Earth Observation (ML4EO). You can find some of my work by navigating to the `projects` page.
 
@@ -49,7 +51,7 @@ It's worth noting that both of these ideas expand upon the concept of the Dual-s
 
 I have a particular affinity for subjects related to [Leading and Managing Technological Innovation](https://www.africa.engineering.cmu.edu/academics/courses/04-800-AD.html). My enthusiasm for this area intensified following my enrollment in a course of the same name, instructed by [Prof. Mark Kryder](https://www.africa.engineering.cmu.edu/about/contact/directory/bios/kryder-mark.html).
 
-In the context of African AI policy, I am keenly interested in examining the performance of our countries across five (5) key axes:
+In the context of African AI policy, I am keenly interested in examining the performance of our countries across the following axes:
 
 * Compute infrastructures (Effective supercomputing power...compute (GPU) clusters essentially)  
 * Workforce and Key Contributors (AI specialists; Dissemination levels)  
